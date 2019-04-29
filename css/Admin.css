@@ -1,0 +1,22 @@
+/* body {
+    text-align: center;
+    height: 100%;
+} */
+.Features{
+    width: 240px;
+    position: absolute;
+    float: left;
+    border-top: none;
+    border-left: none;
+    margin: 0em;
+    background-color: blueviolet;
+}
+.Display{
+    background-color: royalblue;
+    position: relative;
+    height: 100%;
+    /* width: 80%; */
+    border-left: 1px solid #cccccc;
+    padding: 15px 15px 0px 15px;
+    margin-left: 240px;
+}
