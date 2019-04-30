@@ -1,8 +1,8 @@
 /* body {
     text-align: center;
     height: 100%;
-} */
-.Features{
+} 
+/* .Features{
     width: 240px;
     position: absolute;
     float: left;
@@ -15,8 +15,36 @@
     background-color: royalblue;
     position: relative;
     height: 100%;
-    /* width: 80%; */
+    /* width: 80%; 
     border-left: 1px solid #cccccc;
     padding: 15px 15px 0px 15px;
     margin-left: 240px;
+} */
+#page-stats{
+    text-align: center;
+    height: 100%;
+}
+.logCon {
+    /* color: #FFFFFF; */
+    margin-top: 40px;
+    border: 1px;
+}
+.line{
+    margin-top: 2%;
+}
+body .bt_input {
+    border-radius: 2px;
+    /* border: none; */
+    padding: 11px 5px;
+    width: 330px;
+    margin-right: 20px;
+    color: #333;
+    margin-left: 5px;
+    margin-bottom: 18px;
+    /* background: #ffffffd9; */
+}
+body .logCon span {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
 }

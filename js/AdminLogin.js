@@ -31,9 +31,10 @@ new Vue({
             var stat = res.bodyText.split(",")[0];
             var adminName = res.bodyText.split(",")[1];
             if (stat == "登录成功") {
-              console.log("wo jin lai le")
+              // console.log("wo jin lai le")
               //跳转到管理员功能界面
               window.location.href = "Admin.html?name=" + adminName;
+              // console.log(adminName);
             }
           });
       }
